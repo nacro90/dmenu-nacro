@@ -24,6 +24,8 @@ dmenu \- dynamic menu
 .IR windowid ]
 .RB [ \-it
 .IR text ]
+.RB [ \-n
+.IR number ]
 .P
 .BR dmenu_run " ..."
 .SH DESCRIPTION
@@ -88,6 +90,8 @@ embed into windowid.
 .TP
 .BI \-it " text".
 start with initial text input.
+.BI \-n " number"
+preseslected item starting from 0.
 .SH USAGE
 dmenu is completely controlled by the keyboard.  Items are selected using the
 arrow keys, page up, page down, home, and end.
