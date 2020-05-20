@@ -907,7 +907,7 @@ usage(void)
 {
 	fputs("usage: dmenu [-bfiPrv] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
 	      "             [-nb color] [-nf color] [-sb color] [-sf color] [-w windowid] [-n number]\n"
-	      "             [-it text] [-h height]\n", stderr);
+	      "             [-it text] [-h height] [-bw width]\n", stderr);
 	exit(1);
 }
 
