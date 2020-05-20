@@ -26,6 +26,8 @@ dmenu \- dynamic menu
 .IR text ]
 .RB [ \-n
 .IR number ]
+.RB [ \-bw
+.IR number ]
 .P
 .BR dmenu_run " ..."
 .SH DESCRIPTION
@@ -99,6 +101,9 @@ start with initial text input.
 .TP
 .BI \-n " number"
 preseslected item starting from 0.
+.TP
+.BI \-bw " width".
+defines the border width
 .SH USAGE
 dmenu is completely controlled by the keyboard.  Items are selected using the
 arrow keys, page up, page down, home, and end.
